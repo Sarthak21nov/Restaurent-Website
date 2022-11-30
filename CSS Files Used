@@ -1,0 +1,202 @@
+# Menu Page CSS file********************************************
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;  
+}
+body{
+    background: url(MenuBag.jpg);
+    padding: 20px;
+}
+.food
+{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15%;
+
+}
+.food img
+{
+    position: relative;
+    width: 50vw;
+    max-width: 500px;
+    border-radius: 15px 15px 0 0;
+}
+h1
+{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.detail
+{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.detail-sub
+{
+    display: grid;
+    grid-template-columns: auto auto
+}
+.detail-sub>h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    text-align: right;
+}
+.detail>p{
+    color:#6f6f6f;
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.detail>button{
+    background-color: rgb(209 80 40);
+    border: none;
+    color:aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+}
+
+# Contact US Page CSS File ********************************************
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.contact
+{
+    position:relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: c;
+    align-items: center;
+    flex-direction: column;
+    background: url(MenuBag.jpg)
+}
+.contact .contact
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .contact h2
+{
+    font-size: 36px;
+    font-weight: 700;
+    color:black
+}
+.contact .contact p
+{
+    font-weight: 300;
+    color:black
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px
+}
+.container .contactInfo 
+{
+    position: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box 
+{
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+.container .contactInfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3
+{
+    font-weight: 600;
+    color:darkblue
+}
+.CntForm
+{
+    width: 40%;
+    padding: 40px;
+    background: rgb(209 80 40);
+}
+.CntForm h2
+{
+    font-size: 40px;
+    color:black;
+    font-weight: 600;
+}
+.CntForm .inputbox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 20x;
+}
+.CntForm .inputbox input,
+.CntForm .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+# Career Page CSS File**************************************************
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+body
+{
+    padding: 20px;
+    background: url(MenuBag.jpg);
+}
+h1,h2
+{
+    color: rgb(209, 40, 62);    
+}
+.Found 
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Problem
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.Aftermath
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
