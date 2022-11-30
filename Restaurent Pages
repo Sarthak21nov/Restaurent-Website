@@ -1,0 +1,302 @@
+# Contact Us Page******************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="PageStyle.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2><center>Contact Us</center></h2>
+            <p>Meet you Here is ready to serve you any time. Keeping that in mind we have a 24x7 support so that you can get the 
+                answers of your queries. On this page you will find our location, Phone number, Email and also a section where you 
+                can text us your queries. Our team will look after all your quesries.
+            </p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3><u>Address:</u></h3>
+                        <p>4352 Altamound Road,<br>Santacruz,Mumbai,<br>400026</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3><u>Phone:</u></h3>
+                        <p>013-543-6574</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3><u>E-mail:</u></h3>
+                        <p>MeatYouThere@myt.in</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="CntForm">
+                <form>
+                    <h2><u>Send Message to Us</u></h2>
+                    <div class="inputbox">
+                        <span>Full Name:</span>
+                        <input type="text" name="" required="required">
+                        <!-- <span>Full Name (Please Mention in above field)</span> -->
+                    </div>
+                    <div class="inputbox">
+                        <span>Email:</span>
+                        <input type="text" name="" required="required">
+                        <!-- <span>Email (Please Mention in above field)</span> -->
+                    </div>
+                    <div class="inputbox">
+                        <span>Type Your message in the field given below:</span>
+                        <textarea required="required"></textarea>
+                        <!-- <span>Type Your message (Please Mention in above field)</span> -->
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+# Menu Page ***********************************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="MenuPage.css">
+</head>
+<body>
+    <section class="Menu">
+        <div class="content">
+            <h2><center><u>Menu</u></center></h2>
+            <p> Welcome to the menu page of Meat You There we are happy to serve you. You will get variety of non vegetarian food here.
+                We provide the dishes from all across the globe few of our special item 
+                are stated below. These items have been made keeping in mind about the Taste which people expect from us. We try to serve 
+                to our best. You can have a look and make your decision accordingly.  
+             </p>
+             <div class="food">
+                <img src="home-img-2.png">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Full Piece Fried Chicken</h2>
+                        <h2 class="Price">&#8377 460</h2>
+                    </div>
+                    <p>Full chicken meat write from the top to bottom. Oil free fried.</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="food">
+                <img src="menu-3.jpg">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Chilli Chicken</h2>
+                        <h2 class="Price">&#8377 200</h2>
+                    </div>
+                    <p>Boneless Chilli Chicken to have as a snack</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="food">
+                <img src="menu-4.jpg">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Chicken Biryani</h2>
+                        <h2 class="Price">&#8377 350</h2>
+                    </div>
+                    <p>Chicken Biryani with 3 chicken pieces.</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="food">
+                <img src="menu-1xxx.jpg">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Chicken Peproni Pizza</h2>
+                        <h2 class="Price">&#8377 276</h2>
+                    </div>
+                    <p> Cheezy Chicken Peproni pizza with a frshly prepared chicken peproni. </p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="food">
+                <img src="menu-1.jpg">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Mutton Curry</h2>
+                        <h2 class="Price">&#8377 540</h2>
+                    </div>
+                    <p>Spicy Mutton Curry with curry</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="food">
+                <img src="menu-2xx.jpg">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Chicken Burger</h2>
+                        <h2 class="Price">&#8377 70</h2>
+                    </div>
+                    <p>Burger with spicy chicken tikki in between</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="food">
+                <img src="home-img-1.png">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Fish Fry</h2>
+                        <h2 class="Price">&#8377 430</h2>
+                    </div>
+                    <p>Fish Fry you can have a crispy taste of it.</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+
+             <div class="food">
+                <img src="menu-8.jpg" height="426px" width="640px">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Lemonade</h2>
+                        <h2 class="Price">&#8377 110</h2>
+                    </div>
+                    <p>Have a fresh Lemonade</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+
+             <div class="food">
+                <img src="menu-6xx.jpg">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Cup Cream</h2>
+                        <h2 class="Price">&#8377 45</h2>
+                    </div>
+                    <p>Cup cream available in various Flavours as deserts.</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+
+             <div class="food">
+                <img src="menu-7.jpg" height="426px" width="640px">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Virgin Mohito</h2>
+                        <h2 class="Price">&#8377 150</h2>
+                    </div>
+                    <p>Have a glass of Virgin Mohito and get freshed.</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+
+
+             <div class="food">
+                <img src="menu-9.jpg">
+                <div class="detail">
+                    <div class="detail-sub">
+                        <h2>Orange Juice</h2>
+                        <h2 class="Price">&#8377 50</h2>
+                    </div>
+                    <p>We have a regular orange Juice as well for people who just want simple normal drink.</p>
+                    <button>Add To Cart</button>
+                </div>
+             </div>
+        </div>
+    </section>
+</body>
+</html>
+
+Carrer Page **************************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrer</title>
+    <link rel="stylesheet" type="text/css" href="CarrerPage.css">
+</head>
+<body>
+    <h1><center><u>Our Carrer:</u></center></h1>
+    <h2><u>Esablishment Story:</u></h2>
+    <h3>
+    <div class="Found">
+        <p>Meat You There was founded by two Indian Brothers in the year 2005 with the aim of providing the good quality non veg food, with proper taste,
+            hygene, etc. Now come how our founders got the Idea of starting there own restaurent francise, There is a small story behind the 
+            establishment of Meat you there, Before setting up the first restaurent our founders used to work in a equity firm. One fine day they went
+            on a ride in the city. There they found that the city has lack of restaurent which provide the non veg food, 
+            at the same time that vibe was also missing. So they decided to leave there job and started to give there time on Meat You there.
+            One of the challenge was to find the suitable place to set up the restaurent which should be at an important location and
+            pocket friendly as well. So after searching a lot the first place where the first restaurent was set up was in Tilak Nagar,
+            New Delhi. They started working on there vision right from the establishment. They got very good reviews from the guests and 
+            also they got the feedback that where they need the improvement. They worked on the feedbacks given by the guests and today what we 
+            are is the result of what they have done that time.
+        </p>
+    </div>
+    </h3>
+    <h2><u>Problems Faced:</u></h2>
+    <div class="Problem">
+        <h3>
+        <p>
+            <ul>
+                <u><b>Establishment of the first restaurent:- </b></u> <br>
+                1) Land Allotment:- The best and affordable land was required <br>
+                2) Good Contractor:- The good contractor who take up this project <br>
+                3) Good Interior Designing:- to keep up the vibe <br>
+            </ul>
+            <ul>
+                <u><b>Team Building</b></u> <br>
+                1) 3-4 Chefs <br>
+                2) Manager <br>
+                3) Housekeeping Staffs <br>
+                4) Delivery Agents<br>
+            </ul>
+            <ul>
+                <u><b>Marketing</b></u> <br>
+                1) Heavy Expenses was done for the marketing <br>        
+            </ul>
+            <ul>
+                <u><b>Audience Attraction:- </b></u> <br>
+                This was the one of the toughest Task in the journey. <br>
+            </ul>
+        </p>
+        </h3>
+    </div>
+    <h2><u>Results after the Problem Faced</u></h2>
+    <div class="Aftermath">
+        <h3>
+            <p>
+                We have faced many difficulties to scale up our restaurent in the beginning of our carrer in this field. But as it is 
+                the rule of the nature that after every hardwork there comes the success. The same thing happened with us. Meat you 
+                there is now one of the leading restaurent in the country in the category of the Non Veg. We have first started 
+                our journey with a single storey restaurent with only limited guest and because of the support of all our guest we 
+                reached at this Height.<br>
+            </p>
+        </h3>
+        <h1><center><U>THANK YOU FOR YOUR SUPPORT</U></center></h1>
+    </div>
+</body>
+</html>
